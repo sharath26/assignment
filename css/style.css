@@ -12,9 +12,8 @@ html {
 }
 
 .img {
-    width: 45px;
+    width: 150px;
     margin-top: -10px;
-    margin-left: 40px;
 }
 
 .card {
@@ -33,4 +32,27 @@ html {
 
 .card-header {
     margin-bottom: 5px;
+}
+
+.navbar-toggle {
+    width: 47px;
+    height: 34px;
+    background-color: #eef3f8;
+}
+
+.navbar-toggle .icon-bar {
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: black;
+}
+
+.fa {
+    color: grey;
+}
+
+.prof-pic {
+    float: left;
+    width: 30px;
+    margin: 0 8px 5px 0;
 }
