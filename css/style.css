@@ -68,7 +68,7 @@ img {
 
 #bannerimage {
     width: 100%;
-    background-image: url(/images/image8.jpg);
+    background-image: url(../images/image8.jpg);
     height: 250px;
     background-position: center;
     color: #fff;
@@ -80,7 +80,7 @@ img {
 
 #bannerimage2 {
     width: 100%;
-    background-image: url(/images/image11.jpg);
+    background-image: url(../images/image11.jpg);
     height: 250px;
     background-position: center;
     color: #fff;
@@ -88,7 +88,7 @@ img {
 
 #bannerimage3 {
     width: 100%;
-    background-image: url(/images/investors_banner.jpg);
+    background-image: url(../images/investors_banner.jpg);
     height: 250px;
     background-position: center;
     color: #fff;
@@ -96,7 +96,7 @@ img {
 
 #bannerimage4 {
     width: 100%;
-    background-image: url(/images/Contactus.jpg);
+    background-image: url(../images/Contactus.jpg);
     height: 250px;
     background-position: center;
     color: #fff;
@@ -104,7 +104,7 @@ img {
 
 #bannerimage5 {
     width: 100%;
-    background-image: url(/images/incyte_involved.jpg);
+    background-image: url(../images/incyte_involved.jpg);
     height: 250px;
     background-position: center;
     color: #fff;
@@ -112,7 +112,7 @@ img {
 
 #bannerimage6 {
     width: 100%;
-    background-image: url(/images/responsibility.jpg);
+    background-image: url(../images/responsibility.jpg);
     height: 250px;
     background-position: center;
     color: #fff;
@@ -120,7 +120,7 @@ img {
 
 #bannerimage7 {
     width: 100%;
-    background-image: url(/images/joinourteam.jpg);
+    background-image: url(../images/joinourteam.jpg);
     height: 250px;
     background-position: center;
     color: #fff;
