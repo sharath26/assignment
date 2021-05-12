@@ -3,8 +3,86 @@
     height: 100%;
 }
 
-.navbar-nav {
-    margin-left: auto;
+.dropdown-menu {
+    background-color: #337ab7 !important;
+    border: none !important;
+    border-radius: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin: 0 0 0 0 !important;
+}
+
+.dropdown-item {
+    color: black !important;
+    display: inline !important;
+    padding: 0rem 0.75rem !important;
+    line-height: 2.5rem;
+}
+
+.dropdown-item:hover {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+.mlauto1 {
+    float: left;
+    margin-right: 8px;
+}
+
+.navbar {
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+}
+
+nav-link {
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    li.dropdown.scale>.dropdown-menu {
+        display: block;
+        opacity: 0;
+        -o-transform: scale(0);
+        -ms-transform: scale(0);
+        -moz-transform: scale(0);
+        -webkit-transform: scale(0);
+        -o-transform-origin: 0% 0%;
+        -ms-transform-origin: 0% 0%;
+        -moz-transform-origin: 0% 0%;
+        -webkit-transform-origin: 0% 0%;
+        -o-transition: -o-opacity 0.5s;
+        -ms-transition: -ms-opacity 0.5s;
+        -moz-transition: -moz-opacity 0.5s;
+        -webkit-transition: -webkit-opacity 0.5s;
+    }
+    li.dropdown.scale:hover>.dropdown-menu {
+        opacity: 1;
+        -o-transform: scale(1, 1);
+        -ms-transform: scale(1, 1);
+        -moz-transform: scale(1, 1);
+        -webkit-transform: scale(1, 1);
+        display: block;
+    }
+}
+
+.dropdown-menu:hover {
+    display: block;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: 0;
+}
+
+
+/* hide close when burger shown */
+
+.navbar-toggler.collapsed .close-icon {
+    display: none;
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    display: inline;
 }
 
 img {
@@ -20,21 +98,21 @@ img {
     height: 100px;
 }
 
-#card {
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 80px;
-    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+.card-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.5);
 }
 
-#card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
-    opacity: 1
-}
-
-.card-img-overlay>a {
-    text-decoration: none;
+.card:hover .card-overlay {
+    opacity: 1;
 }
 
 .card-title {
