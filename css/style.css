@@ -3,6 +3,10 @@
     height: 100%;
 }
 
+.logo-img {
+    width: 60px;
+}
+
 .dropdown-menu {
     background-color: #337ab7 !important;
     border: none !important;
@@ -34,7 +38,7 @@
     padding-top: 0px !important;
 }
 
-nav-link {
+.nav-link {
     padding: 0;
 }
 
@@ -73,9 +77,6 @@ nav-link {
 .navbar-toggler:active {
     outline: 0;
 }
-
-
-/* hide close when burger shown */
 
 .navbar-toggler.collapsed .close-icon {
     display: none;
@@ -248,4 +249,8 @@ ul.breadcrum li a:hover {
 
 .text-style>a:hover {
     color: #005CAB;
+}
+
+.heading {
+    color: #005CAB
 }
